@@ -16,16 +16,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class EntrataAssignement {
+public class EntrataAssignement { 
 	
-	public static WebDriver driver = null;
+	public static WebDriver driver = null; 
 	WebDriverWait wait =null;
 	SoftAssert softAssert = null;
 	@BeforeTest
-	  public void setUp() throws Exception 
+	  public void setUp() throws Exception  //Global declaration 
 	{
 	  
-	driver = new ChromeDriver();
+	driver = new ChromeDriver(); 
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	wait = new WebDriverWait(driver,Duration.ofSeconds(20));
 	softAssert =new SoftAssert();
