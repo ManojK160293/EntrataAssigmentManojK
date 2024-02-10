@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-10T15:13:15 IST" name="Default suite" finished-at="2024-02-10T15:15:44 IST" duration-ms="148391">
+    <groups>
+    </groups>
+    <test started-at="2024-02-10T15:13:15 IST" name="Default test" finished-at="2024-02-10T15:15:44 IST" duration-ms="148391">
+      <class name="EntrataAssignement">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:EntrataAssignement@55b699ef]" started-at="2024-02-10T15:13:15 IST" name="setUp" finished-at="2024-02-10T15:13:22 IST" duration-ms="6067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="launchBrowser()[pri:1, instance:EntrataAssignement@55b699ef]" started-at="2024-02-10T15:13:22 IST" name="launchBrowser" finished-at="2024-02-10T15:14:21 IST" duration-ms="59365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Homepage()[pri:2, instance:EntrataAssignement@55b699ef]" started-at="2024-02-10T15:14:21 IST" name="Homepage" finished-at="2024-02-10T15:14:37 IST" duration-ms="15812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="formsubmit()[pri:3, instance:EntrataAssignement@55b699ef]" started-at="2024-02-10T15:14:37 IST" name="formsubmit" finished-at="2024-02-10T15:14:50 IST" duration-ms="13467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubmit -->
+        <test-method signature="verifyResult()[pri:4, instance:EntrataAssignement@55b699ef]" started-at="2024-02-10T15:14:50 IST" name="verifyResult" finished-at="2024-02-10T15:15:40 IST" duration-ms="49697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResult -->
+        <test-method signature="dyanamicElefind()[pri:5, instance:EntrataAssignement@55b699ef]" started-at="2024-02-10T15:15:40 IST" name="dyanamicElefind" finished-at="2024-02-10T15:15:42 IST" duration-ms="2337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dyanamicElefind -->
+        <test-method is-config="true" signature="Endemethod()[pri:0, instance:EntrataAssignement@55b699ef]" started-at="2024-02-10T15:15:42 IST" name="Endemethod" finished-at="2024-02-10T15:15:44 IST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Endemethod -->
+      </class> <!-- EntrataAssignement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
